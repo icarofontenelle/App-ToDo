@@ -100,8 +100,17 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/App-ToDo/"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a55e81e9-89b8-43c4-a685-1f49c8a231a9"
   }
 }
